@@ -1,0 +1,166 @@
+/*---------------------------------------------------------General------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #F1F4FF;
+}
+/*---------------------------------------------------------main------------------------------------------*/
+#container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+#search-bar-container {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#search-bar {
+  height: 60px;
+  font-size: 22px;
+}
+.search-icon {
+  font-size: 22px;
+}
+#git-hub-profile {
+  margin-top: 20px;
+  background-color: white;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  display: flex;
+}
+
+/*---------------------------------------------------------left column------------------------------------------*/
+#picture-container {
+  text-align: center;
+}
+#picture-container > p {
+  margin-top: 10px;
+  font-weight: 600;
+}
+#followers-container {
+  display: flex;
+  justify-content: center;
+}
+#followers {
+  margin-right: 20px;
+}
+#public-rep {
+  margin-left: 20px;
+}
+
+/*---------------------------------------------------------right column------------------------------------------*/
+#bio {
+  width: 500px;
+  margin-left: 20px;
+}
+.icon {
+  margin-right: 10px;
+}
+#name {
+  font-size: 40px;
+  font-weight: 700;
+}
+#username {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #696969;
+  border-bottom: 1px solid black;
+}
+#link {
+  float: right;
+  margin-top: 15px;
+  font-size: 15px;
+}
+.sub-text {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.links {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.icon-pic {
+  font-size: 20px;
+}
+.icon-links {
+  text-decoration: none;
+  color: black;
+}
+.links-text {
+  color: black;
+}
+/*---------------------------------------------------------user doesnt exist------------------------------------------*/
+#userDoesNotExist {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+#no-profile-container {
+  margin-top: 20px;
+  background-color: white;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  text-align: center;
+}
+/*---------------------------------------------------------loader------------------------------------------*/
+#pre-loader {
+  position: absolute;
+  top: 0;
+  background-color: rgba(255,255,255);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  z-index: 999999;
+}
+#loader-container {
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 844px) {
+  #container {
+    width: auto;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  #git-hub-profile {
+    display: block;
+  }
+}
+@media only screen and (max-width: 577px) {
+  #git-hub-profile {
+    display: block;
+  }
+  #bio {
+    width: auto;
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 577px) {
+  #git-hub-profile {
+    display: block;
+  }
+  #bio {
+    width: auto;
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 443px) {
+  #search-bar {
+    font-size: 15px;
+  }
+}
